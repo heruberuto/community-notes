@@ -1,0 +1,6 @@
+requests>=2.32
+tqdm>=4.66
+pandas>=2.2
+pyarrow>=17.0
+jupyter>=1.1
+ipykernel>=6.29
