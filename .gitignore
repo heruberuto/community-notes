@@ -4,3 +4,4 @@ __pycache__/
 .ipynb_checkpoints/
 *.part
 .DS_Store
+logs

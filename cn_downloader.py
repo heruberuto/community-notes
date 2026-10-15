@@ -45,7 +45,7 @@ DATASETS = {
 # 2026-08-19..25 respond, 2026-08-18 is already gone).
 SNAPSHOT_WINDOW_DAYS = 10  # probe a little past 7 to be safe
 
-DEFAULT_OUT_DIR = Path(__file__).resolve().parent / "data" / "raw"
+DEFAULT_OUT_DIR = Path("/mnt/data/factcheck/community-notes").resolve() / "data" / "raw"
 
 CHUNK_SIZE = 1 << 20  # 1 MiB
 POLITE_DELAY_S = 1.0  # pause between files; the CDN throttles rapid-fire requests
